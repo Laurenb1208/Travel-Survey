@@ -47,3 +47,17 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Environment variables — never commit real credentials
+.env
+.env.local
+.env.*.local
+
+# Replit monorepo files — not needed in standalone GitHub export
+replit.md
+pnpm-lock.yaml
+pnpm-workspace.yaml
+tsconfig.base.json
+artifacts/
+lib/
+scripts/
