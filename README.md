@@ -11,4 +11,4 @@ A simple web app where users fill out a travel survey and responses are saved to
 ## Built with
 - React + Vite  
 - Tailwind CSS  
-- Supabase  
+- Supabase     
