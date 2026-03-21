@@ -25,7 +25,7 @@ export default function ThankYou() {
           </p>
 
           <div className="bg-green-50 border border-green-100 rounded-2xl p-6 mb-8 text-left">
-            <h2 className="text-sm font-semibold text-green-800 uppercase tracking-wide mb-4">Survey Insights (so far)</h2>
+            <h2 className="text-sm font-semibold text-green-800 uppercase tracking-wide mb-4">Survey Insights</h2>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="mt-0.5 w-2 h-2 rounded-full bg-green-500 flex-shrink-0" />
