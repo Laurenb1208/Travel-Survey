@@ -24,6 +24,30 @@ export default function ThankYou() {
             Your response helps us better understand how people explore the world.
           </p>
 
+          <div className="bg-green-50 border border-green-100 rounded-2xl p-6 mb-8 text-left">
+            <h2 className="text-sm font-semibold text-green-800 uppercase tracking-wide mb-4">Survey Insights (so far)</h2>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 w-2 h-2 rounded-full bg-green-500 flex-shrink-0" />
+                <span className="text-sm text-gray-700">
+                  <span className="font-medium">Most common travel frequency:</span> 1–3 times
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 w-2 h-2 rounded-full bg-green-500 flex-shrink-0" />
+                <span className="text-sm text-gray-700">
+                  <span className="font-medium">Most popular destination:</span> Beach
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 w-2 h-2 rounded-full bg-green-500 flex-shrink-0" />
+                <span className="text-sm text-gray-700">
+                  <span className="font-medium">Top factor:</span> Budget
+                </span>
+              </li>
+            </ul>
+          </div>
+
           <button
             onClick={() => setLocation("/")}
             className="w-full bg-green-600 hover:bg-green-700 active:bg-green-800 text-white font-semibold py-3.5 rounded-xl transition-all duration-150 text-sm shadow-md shadow-green-200 hover:shadow-lg hover:shadow-green-200 hover:-translate-y-0.5 active:translate-y-0"
